@@ -4,9 +4,7 @@
 由于界面View.VISIBLE和View.GONE的动画太生硬，所以写了ExpandLayout类来平滑过渡。
 基本思路，动态的设置布局的高度。
 
-```
-    compile 'com.zxn.expand:expand-layout:1.0.0'
-```
+
 - 核心动画效果代码
 
 ```java
@@ -33,11 +31,15 @@
 
 ## 效果预览
 
-![图片](https://github.com/ss518926/ExpandLayout/raw/master/image/expand.gif)
+[图片上传失败...(image-a7038-1561347405698)]
 
 
 ## 使用
 因为ExpandLayout继承RelativeLayout，所以可以在布局内直接包含控件
+- 添加配置
+```
+implementation 'com.zxn.expand:expand-layout:1.0.0'
+```
 
 - 布局文件中
 
