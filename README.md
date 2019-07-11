@@ -31,7 +31,8 @@
 
 ## 效果预览
 
-[图片上传失败...(image-a7038-1561347405698)]
+![Image text](image/expand.gif)
+
 
 
 ## 使用
