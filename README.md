@@ -140,6 +140,9 @@ public void initExpandView() {
 # 代码调试
 
 ```
+ExpandLayout
+ExpandLayout: onMeasure:
+ExpandLayout: onLayout:
 onMeasure
 
 ```
