@@ -1,18 +1,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="50dp">
+    tools:context="com.zxn.expandview_demo.ExpandLayoutFragment">
 
-    <Button
-        android:id="@+id/button"
+
+    <TextView
+        android:id="@+id/tv_open"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="#32CD32"
-        android:text="点击展开/收缩" />
-
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="open/close"
+        android:textColor="@color/c_000"
+        android:textSize="@dimen/sp_15" />
 
     <com.zxn.expand.ExpandLayout
         android:id="@+id/expandLayout"
@@ -56,21 +58,5 @@
 
 
     </com.zxn.expand.ExpandLayout>
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:background="#00bfff"
-        android:text="尾部布局" />
-
-    <Button
-        android:id="@+id/btn_fragment"
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#00bfff"
-        android:text="进入Fragment使用" />
-
 
 </LinearLayout>

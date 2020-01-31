@@ -29,13 +29,13 @@ public class ExpandLayout extends RelativeLayout {
 
     private View layoutView;
     private int viewHeight;
-    private boolean isExpand;
+    private boolean isExpand = true;
     private long animationDuration;
     private boolean lock;
 
     private void initView() {
         layoutView = this;
-        isExpand = true;
+//        isExpand = true;
         animationDuration = 300;
         setViewDimensions();
     }
